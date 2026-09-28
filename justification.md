@@ -29,7 +29,7 @@ Use this file to briefly explain your design decisions. Bullet points are fine.
 - Reliability and failure modes:
   - Main issues in different track locations with poor internet infrastructure. In the case of no internet connection, the weather station must contain some capacity to store data locally before reconnecting and transferring weather data.
 - Monitoring/alerting and operational concerns:
-  - An alert system if the no weather data is transferred from a weather station. Another alert can be for timestamp mismatches and checking the timezones and time settings of all devices and infrastructure in use. 
+  - An alert system if no weather data is transferred from a weather station. Another alert can be for timestamp mismatches and this can alert the engineers to check the timezones and time settings of all devices and infrastructure in use. 
 
 ### 5. Cost and scalability considerations
 
